@@ -42,6 +42,7 @@ function Top3()
                 <h1>${games[order].Name}</h1>
             </div>
             <div class="subtitle">
+                <h3>Price : ${Games[order].Price}</h3>
                 <h5>${games[order].Subtitle}</h5>
             </div>
         </button>
