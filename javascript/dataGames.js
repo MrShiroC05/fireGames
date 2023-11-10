@@ -76,7 +76,7 @@ let Games = [
         Image: ["./Icon/marvelSnap01.jpg"],
         Make: "Nuverse",
         info: "MARVEL SNAP จาก Nuverse และ Second Dinner เป็นเกมแนว Card Collectible Game (CCG) ที่เราจะได้จัดเด็คเหล่าฮีโร่และวายร้ายจากจักรวาล MARVEL เข้าดวลกับคู่แข่ง! โดยเกมนี้โดดเด่นในด้านเกมเพลย์ที่ง่าย มีลูกเล่นสุดแหวกแนว และจบเร็วมากเพียงแค่ 3 นาทีเท่านั้น!"
-        ,MaxNumPlayer: 1000000
+        ,MaxNumPlayer: 150000
     },
     {
         ID: "7",
@@ -95,13 +95,13 @@ let Games = [
         ID: "8",
         Name: "Cyberpunk 2077",
         Price: "2,482.16 ฿",
-        Subtitle: "None",
+        Subtitle: "ในเกม Cyberpunk 2077 เราจะได้รับบทเป็นตัวละครที่มีชื่อว่า วี (V) ในเกมนี้เต็มไปด้วยข้อมูลมากมายที่รอให้เราไปสำรวจและหาคำตอบให้ได้ และปัญหาที่สำคัญที่สุดในเกม คือการทำภารกิจหาคำตอบว่า จอห์นนี่ ซิลเวอร์แฮนด์ (Johnny Silverhand) นั้นคือใคร เขามีวีรกรรมอะไรที่สำคัญต่อNight City บ้าง และตอนนี้เขาไปอยู่ที่ไหนในโลกแห่งนี้",
         tage: ["Offline", "First-Person Shooter", "Sci-Fi"],
         link: "https://store.steampowered.com/app/1091500/Cyberpunk_2077/",
         Logo: "./Icon/Cyberpunk2077.jpg",
-        Image: [],
+        Image: ["./Icon/Cyberpunk207701.jpg"],
         Make: "Nuverse",
-        info: "Add info me please."
+        info: "Cyberpunk 2077 เต็มไปด้วยภารกิจย่อยมากมาย ซึ่งภารกิจเหล่านี้จะพาคุณไปรู้จักกับทุกมุมของ Night City และเป็นการแนะนำเมืองหลักในการดำเนินเนื้อเรื่องของเกมนี้ได้อย่างชาญฉลาด การเล่นภารกิจย่อยทำให้ผู้เล่นเพลิดเพลินและตื่นเต้นที่จะได้ศึกษาเรื่องราวของ Night City แต่เมื่อทำภารกิจไปได้สักระยะ ก็อาจทำให้เรารู้สึกเบื่อหน่ายเล็กน้อย เพราะภารกิจย่อยส่วนใหญ่ไม่ค่อยสอดคล้องกับเนื้อเรื่องหลักสักเท่าไหร่นัก"
         ,MaxNumPlayer: 900000
     },
     {
@@ -116,5 +116,31 @@ let Games = [
         Make: "Respawn Entertainment",
         info: "จัดจำหน่ายโดยอิเล็กทรอนิกอาตส์ ตัวเกมถูกเซ็ตฉากอยู่ในจักรวาลเดียวกับเกม Titanfall ตัวเกมเปิดให้เล่นสำหรับเครื่องPS4, Windows และ Xbox เปิดตัวครั้งแรกในวันที่ 4 กุมภาพันธ์ 2019 Apex legends สร้างความแตกต่างจากเกมแบตเทิลรอยัลเกมอื่น ๆ ด้วยการยืมแนวคิดของเกมแนวฮีโร่ชูตเตอร์ กับผู้เล่นเป็นตัวละครในตำนานแต่ละคนมีทักษะและความสามารถที่ไม่เหมือนใคร และต้องการให้ผู้เล่นทำงานเป็นทีมสามคนโดยมีความสามารถในการตอบโต้กับเพื่อนในขณะที่ Respawn ได้ทำงานเกี่ยวกับความพยายามในการพัฒนาภาคต่อที่สองในซีรีส์ Tintanfal"
         ,MaxNumPlayer: 961353
+    },
+    {
+        ID: "9",
+        Name: "Cyberdrome",
+        Price: "Free",
+        Subtitle: "None",
+        tage: ["Offline", "First-Person Shooter", "Sci-Fi", "Adventure"],
+        link: "https://store.steampowered.com/app/934850/Cyberdrome/",
+        Logo: "./Icon/Cyberdrome.png",
+        Image: ["./Icon/Cyberdrome01.jpg"],
+        Make: "Nuverse",
+        info: "Add info me please."
+        ,MaxNumPlayer: 91000
+    },
+    {
+        ID: "10",
+        Name: "ARK: Survival Evolved",
+        Price: "315.00 ฿",
+        Subtitle: "None",
+        tage: ["Offline", "First-Person Shooter", "Sci-Fi", "Adventure"],
+        link: "https://store.steampowered.com/app/346110/ARK_Survival_Evolved/",
+        Logo: "./Icon/ARK.jfif",
+        Image: ["./Icon/ARK01.avif"],
+        Make: "Nuverse",
+        info: "Add info me please."
+        ,MaxNumPlayer: 90000
     }
 ];

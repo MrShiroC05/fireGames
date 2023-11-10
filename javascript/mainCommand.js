@@ -17,6 +17,7 @@ let Theme =
         c3: "#DFCCFB",
         c4: "#FFF8C9"
     },
+    //Theme dark
     { 
         background: "black",
         line: "white",
@@ -25,7 +26,6 @@ let Theme =
         c3: "#1C82AD",
         c4: "#03C988"
     }
-    //Theme dark
 ]
 
 //Theme
@@ -56,7 +56,7 @@ if (tapBar !== null)
     `
     <div class="footer1"></div>
     <div class="top">
-        <a href="./index.html"><h1 style="margin-right: 12px; justify-content: start;">Fire Game</h1></a>
+        <a href="./index.html"><h1 style="margin-right: 12px; justify-content: start;"><img style="height:8rem;" src="./Icon/fireGames.png"></h1></a>
         <input id="searchName" style="margin-right: 12px; " onkeyup="searchBar()">
         ${theme}
     </div>
@@ -350,7 +350,7 @@ function printColor()
     }
     if (!hasCookie)
     {
-        document.cookie = "fireGame:1";
+        document.cookie = "fireGame:0";
     }
     if (color !== null)
     color.innerHTML =
