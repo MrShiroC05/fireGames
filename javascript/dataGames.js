@@ -29,7 +29,7 @@ let Games = [
     {
         ID: "3",
         Name: "Terraria",
-        Price: "220.00 Bath",
+        Price: "220.00 ฿",
         Subtitle: "ดินแดนแห่งการผจญภัย! ดินแดนแห่งความพิศวง! ดินแดนที่คุณจะได้สร้าง ป้องกัน และ เพลิดเพลินไปกับมัน! ตัวเลือกของคุณใน Terraria มีไม่สิ้นสุด คุณเป็นเกมเมอร์ประเภทนิ้วไวหรือเปล่า หรือว่าเป็นก่อสร้างระดับเทพ เป็นนักสะสม? เป็นนักสำรวจ? มีบางสิ่งเพื่อคุณทุกคน",
         tage: ["SandBox", "Online", "Offline", "Adventure"],
         link: "https://store.steampowered.com/app/105600/Terraria/",
@@ -42,7 +42,7 @@ let Games = [
     {
         ID: "4",
         Name: "Portal",
-        Price: "220.00 Bath",
+        Price: "220.00 ฿",
         Subtitle: "เมื่อคุณตื่นจากการหลับไหล ในห้องการทดลอง ห้องหนึ่ง และคุณต้องหาทางออกเพื่อเป็นอิสระ จากการทดลอง โดยจะมีปืนประตูมิติ โดยปืนนี้จะไม่มีดาเมจ แต่สามารถพาคุณไปจุดที่คุณต้องการได้ และคุณต้องใช้ปืนนี้เพื่อออกจากที่นี้!!",
         tage: ["Puzzle", "Offline", "Adventure", "Sci-Fi"],
         link: "https://store.steampowered.com/app/400/Portal/",
@@ -55,7 +55,7 @@ let Games = [
     {
         ID: "5",
         Name: "Titanfall",
-        Price: "799.00 Bath",
+        Price: "799.00 ฿",
         Subtitle: "Titanfall เป็นเกมแนว FPS ฟอร์มยักษ์ที่ค่อนข้างแปลกจากเกม FPS อื่นๆทั่วไปตรงที่ว่า เกมนี้จะไม่มีโหมดการเล่นตามเนื้อเรื่องแบบคนเดียวเลย จะมีแต่การเล่นแบบ Multiplayer เท่านั้น ซึ่งจะชดเชยด้วยโหมดต่างๆมากมาย",
         tage: ["First-Person Shooter", "Offline", "Adventure", "Sci-Fi"],
         link: "https://store.steampowered.com/app/1237970/Titanfall_2/",

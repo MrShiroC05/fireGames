@@ -248,6 +248,7 @@ function printInfo(id)
                         <h1>${Games[order].Name}</h1>
                     </div>
                     <div class="subtitle">
+                        <h3>Price : ${Games[order].Price}</h3>
                         <h5>${Games[order].Subtitle}</h5>
                     </div>
                 </button>
@@ -267,6 +268,7 @@ function printInfo(id)
                         <h1>${Games[order].Name}</h1>
                     </div>
                     <div class="subtitle">
+                        <h3>Price : ${Games[order].Price}</h3>
                         <h5>${Games[order].Subtitle}</h5>
                     </div>
                 </button>
