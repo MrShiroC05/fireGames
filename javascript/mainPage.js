@@ -70,6 +70,7 @@ function mainColor()
     if (!hasCookie)
     {
         document.cookie = "fireGame:1";
+        cookie = 1;
     }
     mainColorPage.innerHTML =
     `

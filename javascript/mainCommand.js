@@ -353,6 +353,7 @@ function printColor()
     if (!hasCookie)
     {
         document.cookie = "fireGame:0";
+        cookie = 0;
     }
     if (color !== null)
     color.innerHTML =
